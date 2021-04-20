@@ -15,3 +15,11 @@ There are several important step that you have to do until you get the result.
 * Modelling
 * Evaluation Model
 
+Because of the dataset is imbalance data, we must not see only by its accuracy. We can use classification report to see another result from the model that we used before. From classification report we can see the value of precision, recall, and F1-score. These values can be a benchmark for how good the model is used in the case of the dataset which has imbalance data. In Logistic Regression, i got 77% accuracy, its better then KNN Method which has 73% accuracy. These are the result of both models that i used to predict the dataset.
+* Logistic Regression Classification Report
+
+![alt text](https://github.com/mirfanbaihaqi/MachineLearning_Classification/blob/main/logreg%20matrix.png)
+
+* KNN Classification Report
+
+![alt text](https://github.com/mirfanbaihaqi/MachineLearning_Classification/blob/main/KNN%20matrix.png)
